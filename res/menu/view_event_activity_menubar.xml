@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:title="view_attendees" android:id="@+id/attendees_information" android:icon="@android:drawable/ic_menu_info_details" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/edit_event" android:title="editEvent" android:icon="@android:drawable/ic_menu_edit" android:showAsAction="ifRoom"></item>
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">SocialEventPlaner</string>
+    <string name="name_of_mainactivity">MainActivity</string>
+    <string name="name_of_editbutton">edit</string>
+    <string name="name_of_viewbutton">view</string>
+	<string name="name_of_event">Event:</string>
+	<string name="date_of_event">event date</string>
+	<string name="select_date">Select Date</string>
+	    <string name="toastSaveMsg">Data Saved</string>
+    <string name="toastDateMsg">Date Changed</string>
+    <string name="toastDeleteEventMsg">Event Deleted</string>
+    <string name="create_new">+</string>
+    <string name="delete_event">DELETE</string>
+    <string name="create_button_text">Create</string>
+    <string name="create_new_event_text">Create New Event</string>
+    <string name="create_new_event_hint">New Event Name</string>
+    <string name="number_of_attendees_text_label">Attendees:</string>
+     <string name="number_of_attendees_text"></string>
+      <string name="view_attendees_menu">view_attendees</string>
+</resources>

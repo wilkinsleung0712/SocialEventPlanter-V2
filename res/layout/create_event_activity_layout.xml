@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".EditEventController" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_of_event"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TimePicker
+            android:id="@+id/create_event_timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_event_datePicker"
+            android:layout_marginTop="25dp" />
+
+        <DatePicker
+            android:id="@+id/create_event_datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/create_event_timePicker"
+            android:layout_alignStart="@+id/create_event_timePicker"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="25dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+
+        <Button
+            android:id="@+id/create_event_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/create_event_timePicker"
+            android:layout_marginTop="25dp"
+            android:text="@string/create_button_text" />
+
+        <EditText
+            android:id="@+id/new_event_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView2"
+            android:ems="10"
+            android:hint="@string/create_new_event_hint" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+</ScrollView>
